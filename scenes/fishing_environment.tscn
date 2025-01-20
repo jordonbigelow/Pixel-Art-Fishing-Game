@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://pcg8t35u1mua"]
+
+[ext_resource type="PackedScene" uid="uid://47tl2panwj80" path="res://scenes/character.tscn" id="1_gvv3i"]
+
+[node name="Fishing Environment" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_gvv3i")]
+position = Vector2(243, 139)
+speed = 150
